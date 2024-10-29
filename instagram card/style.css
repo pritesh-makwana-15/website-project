@@ -1,0 +1,155 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.insta-card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 15px;
+    position: relative;
+}
+
+/* Header with Instagram Logo */
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.card-header i {
+    font-size: 30px;
+    color: #d6249f;
+    margin-right: 10px;
+}
+
+.card-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Profile Section */
+.profile-section {
+    margin-top: 10px;
+}
+
+.profile-pic {
+    margin-bottom: 10px;
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ff3399;
+}
+
+.profile-info h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-info .username {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.profile-info .bio {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 20px;
+}
+
+/* Follow Button */
+.follow-btn {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background-color: #1a73e8;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stat p:last-child {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Contact Info */
+.contact-info {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info i {
+    margin-right: 8px;
+}
+
+/* Footer with Instagram Navigation Icons */
+.card-footer {
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav i {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-nav i:hover {
+    color: #ff3399;
+}
